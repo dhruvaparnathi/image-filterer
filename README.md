@@ -1,128 +1,131 @@
-🎨 Image Editor Web App
+<h1 align="center">🎨 Image Editor Web App</h1>
 
-A simple yet powerful browser-based Image Editor built with HTML, CSS, and Vanilla JavaScript.
-Users can upload an image, apply real-time filters, use preset styles, and download the edited image.
+<p align="center">
+A browser-based <b>Image Editor</b> built using HTML, CSS and Vanilla JavaScript.
+</p>
 
-🚀 Live Demo
+<p align="center">
+Upload images, apply real-time filters, use presets, and download the edited image directly from your browser.
+</p>
 
-🔗 Live Website
-https://your-netlify-link.netlify.app
+<p align="center">
+<a href="https://your-netlify-link.netlify.app"><b>🚀 Live Demo</b></a> •
+<a href="https://github.com/dhruvaparnathi/image-filterer"><b>💻 GitHub Repo</b></a>
+</p>
 
-💻 GitHub Repository
-https://github.com/dhruvaparnathi/your-repo-name
+---
 
-🛠 Tech Stack
+## 📸 Preview
 
-
-
-
-
+Add a screenshot of the project here.
 
 
+*(Save a screenshot as `preview.png` in your repository)*
 
-✨ Features
+---
 
-✅ Upload images from your device
-✅ Apply filters in real-time
-✅ Multiple filter controls (brightness, contrast, etc.)
-✅ Preset styles for quick edits
-✅ Reset filters instantly
-✅ Download edited image
-✅ Responsive design (mobile friendly)
+## ✨ Features
 
-🎛 Available Filters
+✔ Upload images from your device  
+✔ Apply filters in **real-time**  
+✔ Multiple filter controls  
+✔ Preset filter styles  
+✔ Reset filters instantly  
+✔ Download edited image  
+✔ Fully responsive design  
+
+---
+
+## 🎛 Available Filters
 
 The editor supports the following filters:
 
-Brightness
+- Brightness  
+- Contrast  
+- Saturation  
+- Blur  
+- Hue Rotation  
+- Grayscale  
+- Sepia  
+- Invert  
 
-Contrast
+All filters are applied using the **HTML5 Canvas API**.
 
-Saturation
+---
 
-Blur
+## 🎨 Presets
 
-Hue Rotation
+The app also includes preset styles for quick editing:
 
-Grayscale
+- Vintage  
+- Noir  
+- Cyberpunk  
+- Warm Sunset  
+- Cool Tone  
+- Soft Glow  
+- Retro Pop  
 
-Sepia
+These presets combine multiple filters to create unique visual styles.
 
-Invert
+---
 
-All filters are applied using the HTML5 Canvas API.
+## 🛠 Tech Stack
 
-🎨 Presets
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **Canvas API**
+- **Netlify (Deployment)**
 
-Quick preset styles included:
+---
 
-Vintage
-
-Noir
-
-Cyberpunk
-
-Warm Sunset
-
-Cool Tone
-
-Soft Glow
-
-Retro Pop
-
-These presets combine multiple filters to create unique looks.
-
-📸 Preview
-
-(Add your screenshot here)
-
-Example:
-
-![Image Editor Preview](./preview.png)
-
-Tip: Take a screenshot of your project and name it preview.png.
-
-📂 Project Structure
-image-editor
+## 📂 Project Structure
+image-filterer
 │
 ├── index.html
 ├── script.js
-├── styles
-│   ├── theme.css
-│   └── style.css
+├── theme.css
+├── style.css
 └── README.md
-⚙️ How It Works
 
-User uploads an image.
 
-The image is drawn on a Canvas element.
+---
 
-Filters are applied using ctx.filter.
+## ⚙️ How It Works
 
-Canvas redraws the image when sliders change.
+1. User uploads an image.
+2. The image is drawn onto a **Canvas element**.
+3. Filter sliders update values dynamically.
+4. Canvas redraws the image using **ctx.filter**.
+5. Users can download the edited image.
 
-The edited image can be downloaded.
+---
 
-📥 Installation
+## 📥 Installation
 
 Clone the repository:
 
-git clone https://github.com/dhruvaparnathi/your-repo-name.git
+```bash
+git clone https://github.com/dhruvaparnathi/image-filterer.git
 
 Open the project:
 
 index.html
+🚀 Live Demo
+
+👉 https://your-netlify-link.netlify.app
+
 🎯 Future Improvements
 
-✂️ Image cropping tool
+Crop & rotate tools
 
-🔄 Undo / Redo functionality
+Undo / redo functionality
 
-📂 Drag & Drop upload
+Drag & drop image upload
 
-🎚 More advanced filters
+More advanced filters
 
-📷 Image rotation & flipping
+Image flip & rotate
 
 👨‍💻 Author
 
