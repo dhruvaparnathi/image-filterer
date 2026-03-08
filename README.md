@@ -17,9 +17,12 @@ Upload images, apply real-time filters, use presets, and download the edited ima
 
 ## 📸 Preview
 
-Add a screenshot of the project here.
 
-<img width="1898" height="972" alt="image" src="https://github.com/user-attachments/assets/c1c51d3d-027b-466f-9352-29a524f321c3" />
+
+<img width="1890" height="966" alt="Screenshot 2026-03-08 195517" src="https://github.com/user-attachments/assets/9351a8c2-cbb0-499b-9612-cf2491be460f" />
+<img width="1886" height="950" alt="Screenshot 2026-03-08 195545" src="https://github.com/user-attachments/assets/3b7a1dba-2c8d-427f-97a8-2c71b75b95e2" />
+<img width="1899" height="970" alt="Screenshot 2026-03-08 195626" src="https://github.com/user-attachments/assets/2a58313e-8ef1-404e-b7a0-9d2c11f3cfd1" />
+
 
 
 
@@ -80,14 +83,17 @@ These presets combine multiple filters to create unique visual styles.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+```text
 image-filterer
 │
-├── index.html
-├── script.js
-├── theme.css
-├── style.css
-└── README.md
+├── 📄 index.html      → Main HTML structure
+├── 📄 theme.css       → Global theme variables
+├── 📄 style.css       → UI and layout styling
+├── 📄 script.js       → Image editor logic
+└── 📄 README.md       → Project documentation
+```
 
 
 ---
