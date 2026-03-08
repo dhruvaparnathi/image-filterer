@@ -19,6 +19,7 @@ Upload images, apply real-time filters, use presets, and download the edited ima
 
 Add a screenshot of the project here.
 
+<img width="1898" height="972" alt="image" src="https://github.com/user-attachments/assets/c1c51d3d-027b-466f-9352-29a524f321c3" />
 
 *(Save a screenshot as `preview.png` in your repository)*
 
