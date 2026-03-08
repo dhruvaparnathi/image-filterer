@@ -1,0 +1,45 @@
+/* =========================
+   THEME VARIABLES
+========================= */
+
+:root {
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+
+  --color-secondary: #06b6d4;
+  --color-accent: #f59e0b;
+
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-card: #334155;
+
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+
+  --color-border: #475569;
+
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+
+  --font-main: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-2xl: 36px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+}
